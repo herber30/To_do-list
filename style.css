@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  min-height: 100vh;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 25px;
+}
+
+.header button {
+  position: absolute;
+  right: 18%;
+  margin-top: -30px;
+}
+
+.header i {
+  font-size: 22px;
+}
+
+.to-do {
+  margin-top: 40px;
+  width: 60%;
+}
+
+.textInsert {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+  color: var(--secondary-color); /* Removido o caractere extra após a declaração de cor */
+}
+
+.divInsert {
+    padding: 20px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,0.7971223021582734) 0%, rgba(7,166,240,0.7093525179856115) 0%, rgba(65,143,236,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px #7CB9E8;
+  }
+  
+
+button {
+  width: 10%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.bx-plus {
+    font-size: 30px;
+    margin-left: 10px;
+    background: rgb(55,65,198);
+    background: radial-gradient(circle, rgba(55,65,198,0.9410071942446043) 0%, rgba(134,75,173,1) 100%);
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s; 
+  }
+  
+  .bx-plus:hover {
+    background-color: rgb(134,75,173);
+    transform: scale(1.1); 
+  }
+  
+
+.divLi {
+  margin-top: 20px;
+  padding: 10px;
+  background: #B9D9EB;
+  border-radius: 10px;
+  box-shadow: 6px 5px 10px 0px #452c63;
+  display: flex;
+  align-items: center;
+}
+
+.divLi span {
+  width: 80%;
+  color: rgb(12, 9, 88);
+}
+
+.divLi input {
+  width: 10%;
+  outline: none;
+  accent-color: currentcolor;
+}
+
+.divLi i {
+  font-size: 22px;
+  color: rgb(50, 41, 179);
+}
+
+li {
+  list-style-type: none;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+@media (max-width: 775px) {
+  input {
+    width: 70%;
+  }
+
+  .divInsert button {
+    width: 30%;
+  }
+
+  i {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  p {
+    font-size: x-large;
+  }
+}
