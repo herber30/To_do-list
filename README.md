@@ -2,6 +2,8 @@
 
 Este é um simples aplicativo de lista de tarefas criado com HTML, CSS e JavaScript. Ele permite que você adicione, marque como concluídas e exclua tarefas, com os dados sendo armazenados no `localStorage` do navegador.
 
+Link da pagina: https://herber30.github.io/To_do-list/
+
 ## Estrutura do Projeto
 
 O projeto consiste em três arquivos principais:
